@@ -1,0 +1,61 @@
+User:
+User Id
+First name
+Last name
+Gender
+Age
+Mobile No
+State
+Security Question
+Security Answer
+
+Train:
+Id
+Train Name
+Source 
+Destination
+Arrival time
+Departure time
+Coaches
+
+Coaches:
+Second Sitting Coaches
+Available Seats
+Ticket fare
+Sleeper Coaches
+Available Seats
+Ticket fare
+AC Coaches
+Available Seats
+Ticket fare
+General Coaches
+Available Seats
+Ticket fare
+
+Station:
+Station Name
+Station No
+Train Id 
+Arrival time
+
+Passenger:
+Id
+User Id
+Name
+Gender
+Age
+Reservation Status
+Seat no
+Coach
+
+Booking:
+User Id
+Id
+
+Ticket:
+Id
+User Id
+Status
+No of passengers
+Train no
+Date of Journey
