@@ -1,61 +1,58 @@
 User:
-User Id
+User_Id(email-id)(Primary Key)
 First name
 Last name
 Gender
 Age
 Mobile No
-State
-Security Question
-Security Answer
+Address
+Security Question(optional)
+Security Answer(optional)
 
 Train:
-Id
+Train_No(Primary Key)
 Train Name
 Source 
 Destination
 Arrival time
 Departure time
-Coaches
 
-Coaches:
-Second Sitting Coaches
-Available Seats
-Ticket fare
-Sleeper Coaches
-Available Seats
-Ticket fare
-AC Coaches
-Available Seats
-Ticket fare
-General Coaches
-Available Seats
-Ticket fare
+Coaches Type:
+Id(Primary Key)
+Name
+Seats
+
+Compartment:
+Type_Id(Foreign Key)
+Train_No(Candidate Key)
+Compartment_Name(Candidate Key)
+Available_Seats
 
 Station:
-Station Name
-Station No
-Train Id 
-Arrival time
+Station_Name
+Station_No(Primary Key)
 
-Passenger:
-Id
-User Id
+Passes By:
+Station_No(Foreign Key)
+Train_No(Foreign Key)
+Arrival_Time
+Departure_Time
+
+
+Passenger Details:
+Passenger_Id(Primary Key)
+Ticket_Id
+Train_No
 Name
 Gender
 Age
-Reservation Status
 Seat no
 Coach
+Date_Of_Journey
 
-Booking:
-User Id
-Id
-
-Ticket:
-Id
-User Id
-Status
+Ticket_Details:
+Ticket_Id(Primary Key)
+Train_Id
+User_Id
 No of passengers
-Train no
-Date of Journey
+Status
