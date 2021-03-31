@@ -1,0 +1,1420 @@
+
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (1,1355,90, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'AC1','Cis Woman',1001,'Emmanuelle',1,1,1355,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'AC1','Non-binary',1002,'Hermann',2,1,1355,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC1','Trans*Female',1003,'Magdalena',3,1,1355,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'AC1','Transgender Female',1004,'Leda',4,1,1355,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (2,1377,57, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'AC2-1','Trans*Person',1005,'Jamison',5,2,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'AC2-1','Transmasculine',1006,'Grace',6,2,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'AC2-1','Male to Female',1007,'Hassan',7,2,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'AC2-1','Cisgender Female',1008,'Electa',8,2,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'AC2-1','Hermaphrodite',1009,'Loren',9,2,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (75,'AC2-1','Cis Male',1010,'Beaulah',10,2,1377,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (3,1360,37, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'SL1','Two-spirit person',1011,'Jerry',11,3,1360,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (54,'SL1','Woman',1012,'Luigi',12,3,1360,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (4,1324,15, 2,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'AC2-1','Androgynes',1013,'Deshaun',13,4,1324,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'AC2-1','Cisgender Male',1014,'Monte',14,4,1324,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (5,1362,32, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'FC1','Transexual Male',1015,'Marc',15,5,1362,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'FC1','Woman',1016,'Jessica',16,5,1362,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (6,1379,16, 1,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (52,'AC3-1','T* man',1017,'Gwen',17,6,1379,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (7,1377,46, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (68,'SL1','Intersex woman',1018,'Fausto',18,7,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'SL1','Female to male transgender man',1019,'Zora',19,7,1377,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (8,1241,30, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'EC1','Two-spirit person',1020,'Laverne',20,8,1241,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (49,'EC1','Non-binary',1021,'Earnestine',21,8,1241,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'EC1','Cis Female',1022,'Brook',22,8,1241,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'EC1','Intersex woman',1023,'Eleanora',23,8,1241,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (9,1359,25, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (39,'AC3-1','Cisgender',1024,'Merle',24,9,1359,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (10,1372,72, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'AC3-1','Cis Male',1025,'Melvin',25,10,1372,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (11,1245,32, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'AC1','Cisgender Woman',1026,'Cassandra',26,11,1245,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC1','FTM',1027,'Bria',27,11,1245,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (75,'AC1','T* man',1028,'Matt',28,11,1245,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'AC1','Intersex man',1029,'Brendon',29,11,1245,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (12,1320,58, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'EC1','Male to female transsexual woman',1030,'Maia',30,12,1320,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'EC1','Gender Questioning',1031,'Sigmund',31,12,1320,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (60,'EC1','Hermaphrodite',1032,'Karolann',32,12,1320,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'EC1','Cis Female',1033,'Jody',33,12,1320,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (13,1259,58, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (36,'SS1','Two-spirit',1034,'Reinhold',34,13,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (38,'SS1','Androgynous',1035,'Ernesto',35,13,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'SS1','Transexual Person',1036,'Jillian',36,13,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'SS1','Trans*Man',1037,'Iva',37,13,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (63,'SS1','Cisgender Woman',1038,'Elody',38,13,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'SS1','Other',1039,'Anais',39,13,1259,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (14,1277,71, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'SL1','Transgender Person',1040,'Jaime',40,14,1277,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (15,1365,86, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (56,'FC1','Neutrois',1041,'Bailee',41,15,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'FC1','Cisgender',1042,'Ottilie',42,15,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'FC1','Transgender Person',1043,'Anthony',43,15,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (74,'FC1','Bigender',1044,'Dejuan',44,15,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'FC1','Trans Man',1045,'Tate',45,15,1365,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (16,1419,23, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'AC1-1','Trans',1046,'Tommie',46,16,1419,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (25,'AC1-1','Gender Fluid',1047,'Maud',47,16,1419,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'AC1-1','Bigender',1048,'Precious',48,16,1419,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'AC1-1','Intersex person',1049,'Gertrude',49,16,1419,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'AC1-1','Trans',1050,'Alycia',50,16,1419,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'AC1-1','Transexual Woman',1051,'Major',51,16,1419,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (17,1347,74, 5,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'EC1','Cis Female',1052,'Arlo',52,17,1347,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'EC1','Gender Questioning',1053,'Alexa',53,17,1347,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'EC1','Asexual',1054,'Monserrate',54,17,1347,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'EC1','Trans Female',1055,'Madge',55,17,1347,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'EC1','Two-spirit',1056,'Lupe',56,17,1347,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (18,1395,50, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (36,'EC1','Cisgender Male',1057,'Jake',57,18,1395,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'EC1','Cis Female',1058,'Hilario',58,18,1395,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'EC1','Intersex person',1059,'Wallace',59,18,1395,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'EC1','Trans Man',1060,'Savannah',60,18,1395,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (75,'EC2','FTM',1061,'Nelle',1,18,1395,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'EC2','FTM',1062,'Joelle',2,18,1395,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (19,1425,85, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'AC3-1','Trans Male',1063,'Marcia',3,19,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (28,'AC3-1','Cisgender Woman',1064,'Zula',4,19,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'AC3-1','Transexual Female',1065,'Rhea',5,19,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'AC3-1','Non-binary',1066,'Bo',6,19,1425,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (20,1401,42, 2,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'EC1','Cis',1067,'Daisha',7,20,1401,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (50,'EC1','F2M',1068,'Francis',8,20,1401,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (21,1406,55, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (50,'AC1','Androgynous',1069,'Gussie',9,21,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC1','Intersex person',1070,'Gerda',10,21,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'AC1','Gender Nonconforming',1071,'Neva',11,21,1406,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (22,1307,60, 5,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'AC1-1','MTF',1072,'Deshawn',12,22,1307,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (36,'AC1-1','T* man',1073,'Citlalli',13,22,1307,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (56,'AC1-1','Neutrois',1074,'Rebeka',14,22,1307,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'AC1-1','Trans Female',1075,'Madyson',15,22,1307,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'AC1-1','Cis Man',1076,'Elwyn',16,22,1307,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (23,1373,67, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'FC1','Non-binary',1077,'Margarett',17,23,1373,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'FC1','Androgynous',1078,'Philip',18,23,1373,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'FC1','Pangender',1079,'Aubree',19,23,1373,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (73,'FC1','Transexual Male',1080,'Graham',20,23,1373,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (24,1348,21, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (40,'AC1-1','Non-binary',1081,'Abel',21,24,1348,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (25,1289,93, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'FC1','Trans Man',1082,'Cleora',22,25,1289,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (26,1329,82, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'AC1','Trans Female',1083,'Beulah',23,26,1329,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (39,'AC1','Bigender',1084,'Alisha',24,26,1329,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC1','Woman',1085,'Boris',25,26,1329,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'AC1','Agender',1086,'Maudie',26,26,1329,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'AC1','Hermaphrodite',1087,'Keshawn',27,26,1329,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (27,1283,64, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'SL1','Cisgender Male',1088,'David',28,27,1283,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (37,'SL1','Genderqueer',1089,'Brendon',29,27,1283,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (28,1367,81, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'AC2-1','Trans*Woman',1090,'Madilyn',30,28,1367,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'AC2-1','Trans Female',1091,'Jerad',31,28,1367,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (73,'AC2-1','Trans*Man',1092,'Celia',32,28,1367,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (29,1321,86, 3,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (59,'FC1','Non-binary',1093,'Nat',33,29,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'FC1','Male to female transsexual woman',1094,'Osbaldo',34,29,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'FC1','F2M',1095,'Maxie',35,29,1321,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (30,1392,10, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'AC2-1','Androgyne',1096,'Connor',36,30,1392,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'AC2-1','T* man',1097,'Chaz',37,30,1392,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (74,'AC2-1','Trans Female',1098,'Chris',38,30,1392,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'AC2-1','Cisgender Female',1099,'Ricardo',39,30,1392,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (31,1408,33, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'FC1','FTM',1100,'Juliet',40,31,1408,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'FC1','Male to female trans woman',1101,'Karen',41,31,1408,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (32,1359,76, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (73,'AC1-1','Male to Female',1102,'Judd',42,32,1359,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (33,1420,36, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (25,'EC1','Cisgender Male',1103,'Isac',43,33,1420,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'EC1','Intersex person',1104,'Marcelle',44,33,1420,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (37,'EC1','Other',1105,'Danial',45,33,1420,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (75,'EC1','Intersex man',1106,'Walter',46,33,1420,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'EC1','Trans*Man',1107,'Ivory',47,33,1420,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'EC1','Trans*Female',1108,'Llewellyn',48,33,1420,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (34,1321,93, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'FC1','Cisgender Male',1109,'Wilfrid',49,34,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (38,'FC1','Hermaphrodite',1110,'Jadon',50,34,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (49,'FC1','F2M',1111,'Clinton',51,34,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (60,'FC1','Pangender',1112,'Jayde',52,34,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'FC1','Male to female transsexual woman',1113,'Estrella',53,34,1321,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'FC1','Transexual Person',1114,'Archibald',54,34,1321,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (35,1312,54, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'SL1','Intersex woman',1115,'Jody',55,35,1312,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (46,'SL1','Male to Female',1116,'Ignatius',56,35,1312,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'SL1','Neutrois',1117,'Abigail',57,35,1312,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (36,1383,83, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'FC1','Cisgender Man',1118,'Marian',58,36,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'FC1','Cisgender',1119,'Elenor',59,36,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'FC1','Trans Man',1120,'Jamison',60,36,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (52,'FC2','Trans',1121,'Jarvis',1,36,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (25,'FC2','Transgender Female',1122,'Cristobal',2,36,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'FC2','Female to male transsexual man',1123,'Trisha',3,36,1383,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (37,1332,96, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (39,'SS1','Transexual Person',1124,'Macie',4,37,1332,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (73,'SS1','Cisgender Female',1125,'Jarrod',5,37,1332,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (71,'SS1','M2F',1126,'Mireya',6,37,1332,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (28,'SS1','Trans Man',1127,'Mackenzie',7,37,1332,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'SS1','Intersex',1128,'Mekhi',8,37,1332,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'SS1','Transexual Male',1129,'Freda',9,37,1332,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (38,1406,45, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'SS1','Neither',1130,'Tabitha',10,38,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'SS1','Trans Female',1131,'Maynard',11,38,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'SS1','Cisgender Male',1132,'Danny',12,38,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'SS1','Cisgender Man',1133,'Lori',13,38,1406,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'SS1','Transexual Male',1134,'Abigail',14,38,1406,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (39,1351,65, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (28,'FC1','Transexual Female',1135,'Filiberto',15,39,1351,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (40,1265,45, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'FC1','Man',1136,'Stefan',16,40,1265,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'FC1','Transmasculine',1137,'Colleen',17,40,1265,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'FC1','Androgynes',1138,'Michael',18,40,1265,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'FC1','Neither',1139,'Jerel',19,40,1265,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (41,1373,75, 3,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'AC1','Male to Female',1140,'Mariana',20,41,1373,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (75,'AC1','Man',1141,'Shania',21,41,1373,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'AC1','Trans Man',1142,'Hollie',22,41,1373,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (42,1239,19, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'SS1','Gender Questioning',1143,'Lisandro',23,42,1239,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (43,1425,23, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (59,'EC1','Gender Fluid',1144,'Royal',24,43,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (59,'EC1','Cis Woman',1145,'Cleve',25,43,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'EC1','FTM',1146,'Keeley',26,43,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'EC1','Two-spirit',1147,'Joshua',27,43,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (59,'EC1','Gender neutral',1148,'Herman',28,43,1425,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'EC1','Other',1149,'Beryl',29,43,1425,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (44,1378,56, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (60,'AC2-1','T* woman',1150,'Zena',30,44,1378,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'AC2-1','Two-spirit person',1151,'Alba',31,44,1378,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'AC2-1','Trans Man',1152,'Moises',32,44,1378,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (48,'AC2-1','Trans Man',1153,'Yessenia',33,44,1378,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (45,1287,5, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'AC1','T* woman',1154,'Candace',34,45,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'AC1','Transgender Person',1155,'Sharon',35,45,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'AC1','Cisgender Man',1156,'Esther',36,45,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'AC1','Transexual Woman',1157,'Ralph',37,45,1287,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (46,1259,56, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (40,'SL1','Female to Male',1158,'Walker',38,46,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'SL1','Asexual',1159,'Lydia',39,46,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (49,'SL1','Neutrois',1160,'Giovanni',40,46,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'SL1','Cis Male',1161,'Vernie',41,46,1259,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'SL1','F2M',1162,'Robert',42,46,1259,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (47,1317,17, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'AC2-1','Transgender Person',1163,'Mabel',43,47,1317,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC2-1','Intersex',1164,'Nathanial',44,47,1317,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (46,'AC2-1','Trans Man',1165,'Melody',45,47,1317,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'AC2-1','Transexual Male',1166,'Brooks',46,47,1317,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'AC2-1','Androgyne',1167,'Tyson',47,47,1317,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (25,'AC2-1','Androgyne',1168,'Sydnie',48,47,1317,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (48,1302,78, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'AC2-1','Trans',1169,'Luella',49,48,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (39,'AC2-1','Female to male trans man',1170,'Danika',50,48,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (36,'AC2-1','Androgyne',1171,'Kelli',51,48,1302,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (49,1338,12, 3,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'AC3-1','Transmasculine',1172,'Carmel',52,49,1338,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC3-1','Gender Questioning',1173,'Anya',53,49,1338,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'AC3-1','Cisgender Woman',1174,'Garland',54,49,1338,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (50,1261,84, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (16,'AC1-1','Pangender',1175,'Justus',55,50,1261,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (36,'AC1-1','Gender Questioning',1176,'Helene',56,50,1261,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (51,1356,64, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'AC2-1','Androgynes',1177,'Elise',57,51,1356,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'AC2-1','Transexual Person',1178,'Cicero',58,51,1356,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'AC2-1','Trans*Female',1179,'Kaelyn',59,51,1356,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (68,'AC2-1','Trans*Male',1180,'Shayna',60,51,1356,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (50,'AC2-2','Male to Female',1181,'Kristina',1,51,1356,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'AC2-2','Transexual Woman',1182,'Alvera',2,51,1356,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (52,1309,6, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (62,'FC1','Gender Nonconforming',1183,'Harley',3,52,1309,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'FC1','Transgender Person',1184,'Ernestine',4,52,1309,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (18,'FC1','Woman',1185,'Edison',5,52,1309,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'FC1','Cisgender Man',1186,'Jed',6,52,1309,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (53,1386,84, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'SS1','Gender Nonconforming',1187,'Jarrett',7,53,1386,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (54,1377,1, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'EC1','Intersex',1188,'Gladys',8,54,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'EC1','Hermaphrodite',1189,'Camilla',9,54,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'EC1','Woman',1190,'Shirley',10,54,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (63,'EC1','Trans*Man',1191,'Emmitt',11,54,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (46,'EC1','Two-spirit person',1192,'Tristian',12,54,1377,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (55,1257,30, 1,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'SS1','Transexual Man',1193,'Sophie',13,55,1257,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (56,1243,98, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'AC3-1','Male to female transsexual woman',1194,'Orlo',14,56,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (38,'AC3-1','Transexual Person',1195,'Bryon',15,56,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'AC3-1','T* woman',1196,'Ethel',16,56,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (56,'AC3-1','Gender Nonconforming',1197,'Ismael',17,56,1243,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (57,1302,24, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC1-1','Gender Questioning',1198,'Viva',18,57,1302,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (58,1323,19, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (32,'SS1','Transexual Woman',1199,'Jaleel',19,58,1323,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'SS1','Intersex',1200,'Augustus',20,58,1323,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'SS1','Transexual Woman',1201,'Violet',21,58,1323,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'SS1','Other',1202,'Tabitha',22,58,1323,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'SS1','Female to male trans man',1203,'Afton',23,58,1323,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'SS1','MTF',1204,'Dale',24,58,1323,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (59,1402,40, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'SL1','Cis',1205,'Osvaldo',25,59,1402,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (71,'SL1','Trans Male',1206,'Beaulah',26,59,1402,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'SL1','M2F',1207,'Nathen',27,59,1402,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'SL1','Cisgender Female',1208,'Delphia',28,59,1402,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'SL1','Transexual',1209,'Wellington',29,59,1402,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'SL1','Trans*Person',1210,'Audie',30,59,1402,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (60,1389,4, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'AC1','Transexual',1211,'Cierra',31,60,1389,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'AC1','Gender Fluid',1212,'Josiane',32,60,1389,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (61,1275,22, 5,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'SS1','Androgynous',1213,'Pietro',33,61,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'SS1','Trans*Male',1214,'Melany',34,61,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'SS1','Non-binary',1215,'Loyce',35,61,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'SS1','Trans Male',1216,'Celestine',36,61,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'SS1','Intersex man',1217,'Keshaun',37,61,1275,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (62,1385,9, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC2-1','Gender Questioning',1218,'Maye',38,62,1385,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'AC2-1','Intersex',1219,'Esperanza',39,62,1385,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'AC2-1','Female to male transsexual man',1220,'Adan',40,62,1385,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (32,'AC2-1','Genderqueer',1221,'Stephan',41,62,1385,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (63,1382,59, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'AC3-1','Hermaphrodite',1222,'Nyasia',42,63,1382,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'AC3-1','Gender Fluid',1223,'Davonte',43,63,1382,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'AC3-1','Trans Man',1224,'Jacquelyn',44,63,1382,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (64,1296,65, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'AC3-1','Gender Fluid',1225,'Arely',45,64,1296,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (48,'AC3-1','Gender Fluid',1226,'Fernando',46,64,1296,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (54,'AC3-1','Trans*Man',1227,'Anais',47,64,1296,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (38,'AC3-1','Transgender Person',1228,'Norval',48,64,1296,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (71,'AC3-1','Transexual',1229,'Stanton',49,64,1296,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'AC3-1','Gender Questioning',1230,'Haylee',50,64,1296,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (65,1317,72, 1,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'FC1','Trans*Person',1231,'Enoch',51,65,1317,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (66,1287,23, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'SS1','Transexual',1232,'Rigoberto',52,66,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'SS1','Transexual',1233,'Lawson',53,66,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (59,'SS1','Gender Nonconforming',1234,'Nicolas',54,66,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (16,'SS1','Female to male transsexual man',1235,'Duncan',55,66,1287,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (60,'SS1','Cisgender Woman',1236,'Whitney',56,66,1287,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (67,1257,78, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'FC1','Other',1237,'Grady',57,67,1257,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'FC1','Cis Female',1238,'Oswald',58,67,1257,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (22,'FC1','Gender Fluid',1239,'Lincoln',59,67,1257,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'FC1','Cis Woman',1240,'Jovany',60,67,1257,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (68,1422,2, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'FC1','Cis Woman',1241,'Alvera',1,68,1422,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (48,'FC1','Transexual Person',1242,'Mercedes',2,68,1422,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'FC1','Transgender Female',1243,'Howell',3,68,1422,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'FC1','Trans Person',1244,'Brice',4,68,1422,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'FC1','Trans*Man',1245,'Jimmie',5,68,1422,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (69,1316,14, 1,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (22,'AC1-1','Androgynes',1246,'Ellsworth',6,69,1316,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (70,1240,76, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'SS1','Non-binary',1247,'Lonie',7,70,1240,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'SS1','Transexual Female',1248,'Gwendolyn',8,70,1240,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'SS1','Gender neutral',1249,'Justice',9,70,1240,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'SS1','Androgynes',1250,'Rozella',10,70,1240,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'SS1','Trans Person',1251,'Annette',11,70,1240,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (22,'SS1','Neutrois',1252,'Jose',12,70,1240,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (71,1322,27, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'SL1','Female to Male',1253,'Gilberto',13,71,1322,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'SL1','M2F',1254,'Otto',14,71,1322,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'SL1','Trans*Man',1255,'Ivy',15,71,1322,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (22,'SL1','Trans*Person',1256,'Victor',16,71,1322,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'SL1','Cis Man',1257,'Pedro',17,71,1322,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'SL1','Genderqueer',1258,'Nathaniel',18,71,1322,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (72,1308,56, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC1-1','Androgynes',1259,'Isabell',19,72,1308,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'AC1-1','Intersex person',1260,'Brant',20,72,1308,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (73,1423,9, 1,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (56,'SS1','Gender Variant',1261,'Caden',21,73,1423,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (74,1302,9, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'FC1','F2M',1262,'Mireille',22,74,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (58,'FC1','Trans*Man',1263,'Eve',23,74,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'FC1','Androgynous',1264,'Theresa',24,74,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'FC1','Trans*Person',1265,'Rick',25,74,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'FC1','Gender Variant',1266,'Odessa',26,74,1302,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (50,'FC1','Transgender Person',1267,'Savannah',27,74,1302,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (75,1339,93, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'AC1','MTF',1268,'Camren',28,75,1339,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'AC1','Transexual',1269,'Donnell',29,75,1339,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'AC1','Pangender',1270,'Bria',30,75,1339,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'AC1','Two* person',1271,'Eloy',31,75,1339,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (76,1298,13, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'AC2-1','Female to male transsexual man',1272,'Mckayla',32,76,1298,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'AC2-1','Male to female transsexual woman',1273,'Trever',33,76,1298,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (40,'AC2-1','Female to male trans man',1274,'Orlo',34,76,1298,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'AC2-1','Trans Male',1275,'Javon',35,76,1298,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'AC2-1','Genderqueer',1276,'Dayna',36,76,1298,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (77,1275,38, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (46,'FC1','FTM',1277,'Herminio',37,77,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (24,'FC1','Male to female trans woman',1278,'Nicolas',38,77,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (62,'FC1','Androgynes',1279,'Joelle',39,77,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'FC1','Bigender',1280,'Abraham',40,77,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (72,'FC1','Trans*Man',1281,'Arlene',41,77,1275,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'FC1','Genderqueer',1282,'Leonardo',42,77,1275,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (78,1365,4, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'AC2-1','F2M',1283,'Verda',43,78,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'AC2-1','Transexual Person',1284,'Guy',44,78,1365,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (32,'AC2-1','Trans*Female',1285,'Kylie',45,78,1365,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (79,1404,68, 5,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (62,'EC1','Cis Male',1286,'Sarina',46,79,1404,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'EC1','Trans Man',1287,'Natasha',47,79,1404,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (73,'EC1','Cisgender',1288,'Sonya',48,79,1404,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (47,'EC1','Trans Man',1289,'Lesley',49,79,1404,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (29,'EC1','Trans Female',1290,'Eveline',50,79,1404,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (80,1369,79, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'AC2-1','Cis Male',1291,'Rosemary',51,80,1369,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (31,'AC2-1','Asexual',1292,'Kelley',52,80,1369,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'AC2-1','Transexual',1293,'German',53,80,1369,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'AC2-1','Trans Man',1294,'Betty',54,80,1369,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'AC2-1','Two* person',1295,'Isadore',55,80,1369,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (68,'AC2-1','Transexual Female',1296,'Jasper',56,80,1369,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (81,1327,43, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (25,'EC1','Female to male trans man',1297,'Josiah',57,81,1327,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'EC1','Female to male transgender man',1298,'Kraig',58,81,1327,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'EC1','Gender neutral',1299,'Thora',59,81,1327,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (16,'EC1','Hermaphrodite',1300,'Kim',60,81,1327,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (82,1273,83, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'FC1','Male to female transsexual woman',1301,'Edyth',1,82,1273,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'FC1','Cisgender Man',1302,'Minnie',2,82,1273,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (63,'FC1','Transexual',1303,'Lue',3,82,1273,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (83,1327,30, 2,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'SL1','Male to female transgender woman',1304,'Thad',4,83,1327,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (60,'SL1','Male to female transsexual woman',1305,'Aglae',5,83,1327,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (84,1387,60, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'SS1','Transexual',1306,'Gianni',6,84,1387,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'SS1','Transexual Person',1307,'Mia',7,84,1387,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'SS1','Trans*Female',1308,'Antwan',8,84,1387,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'SS1','Androgyne',1309,'Minerva',9,84,1387,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'SS1','Cisgender Female',1310,'Lourdes',10,84,1387,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (85,1361,91, 2,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'SS1','Cisgender Woman',1311,'Tyreek',11,85,1361,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (66,'SS1','Female to male transsexual man',1312,'Freddy',12,85,1361,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (86,1383,66, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'SL1','Transexual Male',1313,'Raina',13,86,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (37,'SL1','Cis Female',1314,'Nicolette',14,86,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'SL1','Trans Man',1315,'Evalyn',15,86,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'SL1','Androgynous',1316,'Jarvis',16,86,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'SL1','Trans*Female',1317,'Edna',17,86,1383,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'SL1','Female to male trans man',1318,'Marie',18,86,1383,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (87,1262,92, 6,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (74,'SL1','Trans',1319,'Marquise',19,87,1262,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (33,'SL1','Neutrois',1320,'Gerald',20,87,1262,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'SL1','Transexual Person',1321,'Kamille',21,87,1262,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (70,'SL1','Gender Questioning',1322,'Abbie',22,87,1262,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'SL1','Intersex',1323,'Telly',23,87,1262,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (53,'SL1','Trans*Man',1324,'Grayce',24,87,1262,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (88,1255,84, 5,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'SS1','Trans',1325,'Valentine',25,88,1255,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'SS1','Male to Female',1326,'Hershel',26,88,1255,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (49,'SS1','Polygender',1327,'Thora',27,88,1255,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (62,'SS1','T* woman',1328,'Vance',28,88,1255,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (63,'SS1','Transgender Person',1329,'Kenna',29,88,1255,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (89,1354,47, 6,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (65,'AC3-1','Cis Female',1330,'Marisol',30,89,1354,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'AC3-1','Female to male transsexual man',1331,'Hollis',31,89,1354,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'AC3-1','Trans Male',1332,'Dewitt',32,89,1354,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (61,'AC3-1','Cis Woman',1333,'Elza',33,89,1354,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (23,'AC3-1','Intersex man',1334,'Laury',34,89,1354,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (35,'AC3-1','Trans*Person',1335,'Nathanael',35,89,1354,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (90,1301,16, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'AC1','Transexual Person',1336,'Paolo',36,90,1301,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'AC1','Cisgender',1337,'Baby',37,90,1301,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'AC1','Cisgender Female',1338,'Raul',38,90,1301,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (54,'AC1','Female to male transsexual man',1339,'Sunny',39,90,1301,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (91,1269,46, 2,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'SS1','Other',1340,'Tomas',40,91,1269,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (54,'SS1','Intersex woman',1341,'Jailyn',41,91,1269,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (92,1377,72, 2,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (19,'AC1-1','Transexual Man',1342,'Camron',42,92,1377,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'AC1-1','Transgender Person',1343,'Audie',43,92,1377,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (93,1243,95, 5,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (56,'SL1','Neutrois',1344,'Luna',44,93,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (27,'SL1','FTM',1345,'Izabella',45,93,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'SL1','Non-binary',1346,'Pauline',46,93,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (34,'SL1','Trans*Person',1347,'Erna',47,93,1243,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'SL1','Intersex person',1348,'Blake',48,93,1243,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (94,1297,75, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (15,'SL1','FTM',1349,'Skylar',49,94,1297,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (26,'SL1','Trans*Male',1350,'Evelyn',50,94,1297,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (30,'SL1','T* man',1351,'Devin',51,94,1297,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (95,1324,80, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (68,'AC1-1','F2M',1352,'Monica',52,95,1324,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'AC1-1','F2M',1353,'Jocelyn',53,95,1324,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (48,'AC1-1','Trans*Man',1354,'Justice',54,95,1324,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC1-1','Other',1355,'Kenya',55,95,1324,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (96,1380,8, 4,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (45,'AC1','Transmasculine',1356,'Colton',56,96,1380,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (43,'AC1','Trans Person',1357,'Ashleigh',57,96,1380,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (20,'AC1','T* man',1358,'Ella',58,96,1380,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (57,'AC1','Transexual',1359,'Ima',59,96,1380,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (97,1386,62, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (51,'FC1','Female to male trans man',1360,'Emanuel',60,97,1386,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (42,'FC2','T* woman',1361,'Micaela',1,97,1386,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (44,'FC2','Cis Man',1362,'Horace',2,97,1386,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (17,'FC2','Male to Female',1363,'Samson',3,97,1386,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (98,1281,90, 3,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (40,'EC1','Pangender',1364,'Haleigh',4,98,1281,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (21,'EC1','Cis',1365,'Kaley',5,98,1281,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (52,'EC1','Male to Female',1366,'Nikko',6,98,1281,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (99,1359,48, 4,'Booked');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (55,'AC2-1','Pangender',1367,'Jakob',7,99,1359,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (67,'AC2-1','Androgynous',1368,'Litzy',8,99,1359,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'AC2-1','Pangender',1369,'Dorris',9,99,1359,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (63,'AC2-1','Androgynous',1370,'Amy',10,99,1359,'3/30/2021');
+INSERT INTO journey_details.ticket_details(
+        id, train_no, user_id, no_of_passengers, status)
+                VALUES (100,1310,55, 3,'Waiting');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (69,'AC3-1','Female to Male',1371,'Drew',11,100,1310,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (64,'AC3-1','Gender Questioning',1372,'Nichole',12,100,1310,'3/30/2021');
+INSERT INTO journey_details.passenger_details(
+            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+                    VALUES (41,'AC3-1','Female to male transsexual man',1373,'Ignacio',13,100,1310,'3/30/2021');
