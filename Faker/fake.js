@@ -11,7 +11,7 @@ function generateUsers() {
   const name =['SS','SL','AC','EC','FC','AC1-','AC2-','AC3-'];
   const seats =[60,50,40,30,40,30,30,30];
   const status_ = ['Booked','Waiting'];
-  for (let id=1; id <= 100; id++) {
+  for (let id=1101; id <= 1101+2000; id++) {
 
 
   var current = new Date();
@@ -36,10 +36,10 @@ function generateUsers() {
     // });
 
     //station
-    // let city = faker.address.city();
-    // console.log(`INSERT INTO station_details.station(
-    //     id, "Name")
-    //     VALUES (${id}, '${city}');`);
+    let city = faker.address.city();
+    console.log(`INSERT INTO station_details.station(
+        id, "Name")
+        VALUES (${id}, '${city}');`);
 
 
     //train
@@ -101,40 +101,40 @@ function generateUsers() {
     // }
 
     //ticket
-    let train_no = Math.floor(Math.random() * 1425)+1234;
+    // let train_no = Math.floor(Math.random() * 1425)+1234;
 
-    while(train_no > 1425 )
-    {
-        train_no = Math.floor(Math.random() * 1425)+1234;
-    }
+    // while(train_no > 1425 )
+    // {
+    //     train_no = Math.floor(Math.random() * 1425)+1234;
+    // }
 
-    let user_id = Math.floor(Math.random() * 100);
+    // let user_id = Math.floor(Math.random() * 100);
  
-    let status = Math.floor(Math.random() * 2);
-    let no_of_passengers = Math.floor(Math.random() * 6)+1;
-    console.log(`INSERT INTO journey_details.ticket_details(
-        id, train_no, user_id, no_of_passengers, status)
-                VALUES (${id},${train_no},${user_id}, ${no_of_passengers},'${status_[status]}');`);
+    // let status = Math.floor(Math.random() * 2);
+    // let no_of_passengers = Math.floor(Math.random() * 6)+1;
+    // console.log(`INSERT INTO journey_details.ticket_details(
+    //     id, train_no, user_id, no_of_passengers, status)
+    //             VALUES (${id},${train_no},${user_id}, ${no_of_passengers},'${status_[status]}');`);
 
-    //passenger
-    let type_id = Math.floor(Math.random() * 8); 
-    let j=1;
-    for(let i=0;i<no_of_passengers;i++)
-    {
-        let first_name = faker.name.firstName();
-        let gender = faker.name.gender();
-        let age = Math.floor(Math.random() * 61)+15; 
-        console.log(`INSERT INTO journey_details.passenger_details(
-            age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
-                    VALUES (${age},'${name[type_id]}${j}','${gender}',${passenger_id},'${first_name}',${seat_no},${id},${train_no},'${date}');`);
-        passenger_id++;
-        seat_no++;
-        if(seat_no>60)
-        {
-            seat_no = 1;
-            j=2
-        }
-    }
+    // //passenger
+    // let type_id = Math.floor(Math.random() * 8); 
+    // let j=1;
+    // for(let i=0;i<no_of_passengers;i++)
+    // {
+    //     let first_name = faker.name.firstName();
+    //     let gender = faker.name.gender();
+    //     let age = Math.floor(Math.random() * 61)+15; 
+    //     console.log(`INSERT INTO journey_details.passenger_details(
+    //         age, coach, gender, id, name, seat_no, ticket_id, train_no, journey_date)
+    //                 VALUES (${age},'${name[type_id]}${j}','${gender}',${passenger_id},'${first_name}',${seat_no},${id},${train_no},'${date}');`);
+    //     passenger_id++;
+    //     seat_no++;
+    //     if(seat_no>60)
+    //     {
+    //         seat_no = 1;
+    //         j=2
+    //     }
+    // }
     
 
     
